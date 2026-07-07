@@ -1,0 +1,26 @@
+# Vercel
+.vercel/
+
+# OpenCode / autonomous agent 부산물
+.omo/
+.codegraph/
+.playwright-mcp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Node (CDN-only이지만 안전망)
+node_modules/
+package-lock.json
+yarn.lock
+
+# 임시 산출물
+*.tmp
+*.log

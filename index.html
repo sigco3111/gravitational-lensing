@@ -1,0 +1,43 @@
+<!--
+  🚧 Under construction — OpenCode (MiniMax-M3) 가 다음 프롬프트로 작업할 예정:
+
+  "아인슈타인의 일반 상대성 이론에 기반하여 화면 중앙에 거대한 블랙홀을 배치하고,
+   블랙홀의 강력한 중력이 뒤편의 은하수 배경(Starfield) 빛을 휘게 만드는
+   중력 렌즈(Gravitational Lensing) 효과를 WebGL 쉐이더로
+   왜곡 없이 물리적으로 정확하게 계산하여 렌더링해줘."
+
+  Implementation Advice:
+    - Use **Three.js** or **WebGL**.
+    - The visual core is a **Fragment Shader**.
+    - Pass the black hole position as a uniform and distort the UV coordinates
+      of the background texture based on the distance from the black hole center.
+    - 모든 의존관계의 코드를 하나의 HTML에 담는 형태로 코드 작성.
+
+  자세한 내용은 README.md 참조.
+-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Gravitational Lensing — Schwarzschild Black Hole</title>
+<style>
+  body { margin: 0; background: #000; overflow: hidden; font-family: system-ui, sans-serif; }
+  canvas { display: block; width: 100vw; height: 100vh; }
+  #info {
+    position: fixed; top: 16px; left: 16px; color: #88ccff;
+    font-size: 12px; opacity: 0.7; pointer-events: none;
+    text-shadow: 0 0 4px #000;
+  }
+</style>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<div id="info">🚧 Under construction — see README.md</div>
+<script type="module">
+  // Three.js fragment shader implementation will go here.
+  // OpenCode task: Schwarzschild metric 기반 광선 편향각 계산
+  //                fragment shader에서 starfield UV 왜곡
+  console.log("gravitational-lensing: scaffolding ready");
+</script>
+</body>
+</html>
