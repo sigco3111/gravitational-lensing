@@ -18,8 +18,8 @@
 ## 📊 Status
 
 - [x] **저장소 초기화** (gh repo create + .gitignore + README)
-- [ ] **placeholder index.html** (OpenCode 작업 컨텍스트 echo)
-- [ ] **index.html 구현** (WebGL fragment shader + Schwarzschild lensing)
+- [x] **placeholder index.html** (OpenCode 작업 컨텍스트 echo + 프롬프트 verbatim)
+- [ ] **index.html 구현** (WebGL fragment shader + Schwarzschild lensing) — *OpenCode 작업 중*
 - [ ] **Vercel 배포** (`https://gravitational-lensing.vercel.app/`)
 - [ ] **README v1.0 다층화** (라이브 데모 + Design Choices + Key Constants)
 
