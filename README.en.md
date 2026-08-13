@@ -10,11 +10,11 @@ Real-time photon ray-marching through the Schwarzschild metric renders an Einste
 
 ## 🎬 Live Demo
 
-> **👉 [https://gravitational-lensing-flax.vercel.app/](https://gravitational-lensing-flax.vercel.app/)** — Run instantly in any modern browser (WebGL required)
+> **👉 [https://sigco3111.github.io/gravitational-lensing/](https://sigco3111.github.io/gravitational-lensing/)** — Run instantly in any modern browser (WebGL required)
 
 | | |
 |---|---|
-| ![Live](https://img.shields.io/badge/Live-Demo-7C3AED?style=for-the-badge&logo=vercel&logoColor=white) | [![Repo](https://img.shields.io/badge/GitHub-sigco3111%2Fgravitational--lensing-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sigco3111/gravitational-lensing) |
+| ![Live](https://img.shields.io/badge/Live-Demo-222222?style=for-the-badge&logo=githubpages&logoColor=white) | [![Repo](https://img.shields.io/badge/GitHub-sigco3111%2Fgravitational--lensing-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sigco3111/gravitational-lensing) |
 | ![Status](https://img.shields.io/badge/Status-Live-22C55E?style=flat-square) | ![Stack](https://img.shields.io/badge/Stack-Three.js%20%2B%20WebGL-000000?style=flat-square&logo=three.js&logoColor=white) |
 | ![License](https://img.shields.io/badge/License-MIT-F1C40F?style=flat-square) | ![Deps](https://img.shields.io/badge/Dependencies-1_CDN-9CA3AF?style=flat-square) |
 
@@ -84,7 +84,7 @@ python3 -m http.server 8000
 ```
 
 ### Method 3: Live Demo
-Open the Vercel alias URL above — no install required.
+Open the GitHub Pages URL above — no install required.
 
 ---
 
